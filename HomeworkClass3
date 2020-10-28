@@ -1,0 +1,15 @@
+number_1 = str(input("Enter a number:"))
+number_2 = str(input("Enter a second number:"))
+number_3 = float(input("Enter a third number (make it a decimal):"))
+number_4 = str(input("Enter a fourth number:"))
+number_5 = str(input("Enter a fifth number:"))
+chicken = ['3', '6', '9', '15']
+chicken.append(number_1)
+chicken.append(number_2)
+chicken.append(number_3)
+chicken.append(number_4)
+chicken.append(number_5)
+if chicken [0] and chicken [1] and chicken [5] > chicken [4]:
+    print("A chicken died")
+else:
+    print("A chicken...still died")
